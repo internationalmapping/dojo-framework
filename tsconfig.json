@@ -3,7 +3,7 @@
 	"compilerOptions": {
 		"jsx": "react",
 		"jsxFactory": "tsx",
-		"types": [ "intern" ],
+		"types": [],
 		"lib": [
 			"dom",
 			"es5",
@@ -18,8 +18,6 @@
 	},
 	"include": [
 		"./src/**/*.ts",
-		"./src/**/*.tsx",
-		"./tests/**/*.ts",
-		"./tests/**/*.tsx"
+		"./src/**/*.tsx"
 	]
 }

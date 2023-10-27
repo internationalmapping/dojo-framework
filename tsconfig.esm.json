@@ -3,10 +3,11 @@
 	"compilerOptions": {
 		"jsx": "react",
 		"jsxFactory": "tsx",
-		"types": [ "intern" ],
+		"types": [],
 		"lib": [
 			"dom",
 			"es5",
+			"es2015",
 			"es2015.core",
 			"es2015.iterable",
 			"es2015.promise",
@@ -18,8 +19,6 @@
 	},
 	"include": [
 		"./src/**/*.ts",
-		"./src/**/*.tsx",
-		"./tests/**/*.ts",
-		"./tests/**/*.tsx"
+		"./src/**/*.tsx"
 	]
 }
